@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.rocket {
+    position: fixed;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    z-index: 0;
+}
+
+
+.planet {
+    position: absolute;
+}
+
+.earth {
+    width: 120px;
+    height: auto;
+    bottom: 20px;
+    right: 20px;
+    z-index: -1;
+}
+
+.mars {
+    width: 100px;
+    height: auto;
+    bottom: 20px;
+    left: 30px;
+    z-index: -1;
+}
+
+.jupiter {
+    width: 280px;
+    height: auto;
+    top: 4px;
+    right: 1px;
+    z-index: -1;
+}
+
+.saturn {
+    width: 200px;
+    height: auto;
+    top: 9px;
+    left: 20px;
+    z-index: -1;
+}
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: auto;
+    z-index: -1; 
+    filter: brightness(100%) contrast(78%)
+}
+
